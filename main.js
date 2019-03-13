@@ -24,6 +24,14 @@ class Main {
             for (let i = 0; i < odd.length; i++)
                 result = result + odd[i];
             console.log(result)
+            
+        let results = 0;
+            for (let i =0; i < ages.length; i++) {
+            if ( ages [i] % 2) {
+            results = results + ages [i];
+        }
+            console.log(results)
+        }
 
         }
         let colors1 = ["blue","white"];
