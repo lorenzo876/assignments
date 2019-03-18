@@ -1,87 +1,129 @@
 class Main {
     execute() {
 
+            // Part one 
         function sayHi(language) {
             let spanish = 'hola';
             let english = 'hi';
             let arabic = 'Merhaba';
 
-            if (languages = 'spanish') {
+            if (language ==='spanish') {
                 return spanish;
             }
 
-            if (languages = 'english') {
+            if (language === 'english') {
                 return english;
             }
 
-            if (languages = 'arabic') {
+            if (language === 'arabic') {
                 return arabic;
             }
         }
 
-        let result = sayHi('spanish');
-        console.log(result);
+       let result1 = sayHi('spanish');
+        let result2 = sayHi('english');
+        let result3 = sayHi('arabic');
+        console.log(result1);
+        console.log(result2);
+        console.log(result3);
 
-        let result = sayHi('english');
-        console.log(result);
 
-        let result = sayHi('arabic');
-        console.log(result);
-
+        // part two
         function sayBye(language) {
             let spanish = 'adiós';
             let english = 'bye';
             let arabic = 'wadaeaan';
 
-            if (languages = 'spanish') {
+            if (language === 'spanish') {
                 return spanish;
             }
 
-            if (languages = 'english') {
+            if (language === 'english') {
                 return english;
             }
 
-            if (languages = 'arabic') {
+            if (language === 'arabic') {
                 return arabic;
             }
         }
 
-        let result = sayBye('spanish');
-        console.log(result);
+        let result1 = sayBye('spanish');
+        let result2 = sayBye('english');
+         let result3 = sayBye('arabic');
+        console.log(result1);
+        console.log(result2);
+        console.log(result3);
 
-        let result = sayBye('english');
-        console.log(result);
 
-        let result = sayBye('arabic');
-        console.log(result);
+
+        // ParT Three
+
+        function sayHi() {
+            console.log('hi');
+            }
+            function sayBye() {
+            console.log ('bye');
+            }
+            function sayHiAndBye (){
+            sayHi();
+            sayBye();
+            }
+            
+            sayHiAndBye();
+// differ
 
 
         function sayAll(language) {
-            let spanish = 'hola' + 'adiós';
-            let english = 'hi' + 'bye';
-            let arabic = 'merhaba' + 'wadaeaan';
+            let spanish = ' hola ' + ' adiós ';
+            let english = ' hi ' + ' bye ';
+            let arabic = ' merhaba ' + ' wadaeaan ';
 
-            if (languages = 'spanish') {
+            if (language === 'spanish') {
                 return spanish;
             }
 
-            if (languages = 'english') {
+            if (language === 'english') {
                 return english;
             }
 
-            if (languages = 'arabic') {
+            if (language === 'arabic') {
                 return arabic;
             }
         }
 
-        let result = sayAll('spanish');
-        console.log(result);
+        let result1 = sayAll('spanish');
+        console.log(result1);
 
-        let result = sayAll('english');
-        console.log(result);
+        let result2 = sayAll('english');
+        console.log(result2);
 
-        let result = sayAll('arabic');
-        console.log(result);
+        let result3 = sayAll('arabic');
+        console.log(result3);
+
+
+
+        function sayAll(language) {
+            let spanish = ' hola ' + ' adiós ';
+            let english = ' hi ' + ' bye ';
+            let arabic = ' merhaba ' + ' wadaeaan ';
+
+            if (language === 'spanish') {
+                return spanish;
+            }
+
+            if (language === 'english') {
+                return english;
+            }
+
+            if (language === 'arabic') {
+                return arabic;
+                            }
+              else {
+                  alert ('Unsupported language')
+              }              
+        }
+sayAll('naggadef');
+
 
 
 
