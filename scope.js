@@ -1,15 +1,8 @@
 class Main {
     execute() {
         // Exercise I
-        function cities() {
-            cities = ["Paris", "Madrid", "Barcelona", "London", "Berlin"];
-        }
-        console.log(cities);
-
-        //1.b
-        function cities() {
-            var europecities = ["Paris", "Madrid", "Barcelona", "London", "Berlin"];
-        }
+          let cities = ["Paris", "Madrid", "Barcelona", "London", "Berlin"];
+        
 
         // Exercise II.
         const cities = ['Paris', 'Madrid', 'Barcelona', 'London', 'Berlin'];
