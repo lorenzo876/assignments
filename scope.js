@@ -1,42 +1,35 @@
 class Main {
     execute() {
         // Exercise I
-          let cities = ["Paris", "Madrid", "Barcelona", "London", "Berlin"];
-        
+
+        let cities = ["Paris", "Madrid", "Barcelona", "London", "Berlin"];
+
 
         // Exercise II.
-        const cities = ['Paris', 'Madrid', 'Barcelona', 'London', 'Berlin'];
-
-        function getCity(num) {
-            return [num];
-            let i = 0;
-            for (let i = 0; i < cities.length; i++) {
-                const num = num[i];
-            }
+        let cities = ['Paris', 'Madrid', 'Barcelona', 'London', 'Berlin'];
+        function getCity(index) {
+            return cities[index];
         }
-        console.log(cities[4]);
-        getCity();
+        getCity(4);
 
         // Execise III.
 
-        const cities = ['Paris', 'Madrid', 'Barcelona', 'London', 'Berlin'];
+        let cities = ['Paris', 'Madrid', 'Barcelona', 'London', 'Berlin'];
 
-        function countLetters(total) {
-            return total;
+        function countLetters(num) {
+            const city = cities[num];
+            return city.length
         }
-        console.log(cities[4].length);
-        countLetters();
+        countLetters(2);
 
 
         // Exercise IV 
-        const cityName = ['Paris', 'Madrid', 'Barcelona', 'London', 'Berlin'];
-
-        function getCityInfo(info) {
-            return info;
+        function getCityInfo(num) {
+            const city = cities[num];
+            console.log ('cityname' + cities[num] + 'number of letters');
 
         }
-        console.log(cityName[3].length)
-        getCityInfo('London');
+        getCityInfo(2);
     }
 }
 new Main().execute();
