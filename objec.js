@@ -17,7 +17,7 @@ function Main() {
             title: "pon di gaza 2",
             artist: "vybz kartel",
             label: "Tad's Record",
-            thereleaseDate: "2010",
+            releaseDate: "2010",
             songs: ["can't get over me", "Mr. Officer", "GO GO Club", "Come breed me "],
         };
 
