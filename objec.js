@@ -4,11 +4,11 @@ function Main() {
 
         // Exercise I
         let musicAlbum = {
-            Title: 'Pon Di Gaza',
-            Author: 'Vybz Kartel',
-            Label: 'Adidjaheim/Notnice',
+            title: 'Pon Di Gaza',
+            author: 'Vybz Kartel',
+            label: 'Adidjaheim/Notnice',
             releaseDate: 'September 22, 2009',
-            Songs: ['Want My Weed', 'Struggle', 'Life We Living', 'Romping Shop', 'Like A movie',],
+            songs: ['Want My Weed', 'Struggle', 'Life We Living', 'Romping Shop', 'Like A movie',],
         };
         console.log(musicAlbum);
 
@@ -17,7 +17,7 @@ function Main() {
             title: "pon di gaza 2",
             artist: "vybz kartel",
             thelabelcompanyname: "Tad's Record",
-            thereleaseyear: "2010",
+            thereleaseDate: "2010",
             songs: ["can't get over me", "Mr. Officer", "GO GO Club", "Come breed me "],
         };
 
