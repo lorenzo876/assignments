@@ -22,8 +22,8 @@ function Main() {
         };
 
         // Excercise III
-        function showinfo(newalbum) {
-            return (newalbum.title + newalbum.songs);
+        function showinfo(musicAlbum) {
+            return (musicAlbum.title + newalbum.songs);
         }
 
         showinfo(newalbum);
